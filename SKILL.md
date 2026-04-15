@@ -554,6 +554,7 @@ section 标题使用提取的 heading 字体 + 字阶（`font-family: var(--font
 **8. Motion & Transitions**
 - 每个动效一个演示区：点击/hover 触发动画重放
 - **glow 动效必须使用 CSS 变量** `--glow-color-dim` / `--glow-color-bright`，这样品牌色变化时 glow 颜色会同步更新
+- **shimmer 等动效禁止 inline 硬编码颜色** — 必须通过 CSS 类使用 `var(--color-surface-muted)` / `var(--color-surface-bg)` 等变量，否则 dark mode 下会出现白色方块
 - 显示 duration + easing 值
 - 显示 CSS 代码片段（点击复制）
 
