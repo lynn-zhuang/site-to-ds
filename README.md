@@ -8,6 +8,8 @@
 
 A Claude Code skill that deep-extracts a complete UI design system from any target website — design tokens, components, interactions — and generates an interactive preview with a built-in Brand Customizer for real-time theming.
 
+![Preview](./docs/hero.png)
+
 ## What it does
 
 1. **Extracts** — Connects to a live website (via Chrome DevTools MCP, Playwright, or manual mode), scans every element's computed styles, captures screenshots, and collects SVG icons
@@ -15,6 +17,23 @@ A Claude Code skill that deep-extracts a complete UI design system from any targ
 3. **Customizes** — Built-in Brand Customizer panel lets you swap brand colors, fonts, icon libraries, and neutral tints in real-time
 4. **Validates** — Mandatory completeness check compares extracted data against screenshots to catch missed components
 5. **Extends** — Auto-generates missing components (buttons, cards, modals, etc.) based on extracted style foundations
+
+## Screenshots
+
+### Brand Customizer — Real-time theming
+Swap brand colors, fonts, icon libraries, and neutral tints without touching code.
+
+![Brand Customizer](./docs/customizer.png)
+
+### Dark Mode — Full theme awareness
+All tokens, components, and the customizer adapt to dark mode automatically.
+
+![Dark Mode](./docs/darkmode.png)
+
+### Components — States & interactions
+Every component includes full state demos: Default, Hover, Active, Focus, Disabled, Loading.
+
+![Components](./docs/components.png)
 
 ## Output
 

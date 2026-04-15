@@ -8,6 +8,8 @@
 
 一个 Claude Code 技能（Skill），能从任意目标网站深度提取完整的 UI 设计系统 —— 设计令牌（Design Tokens）、组件结构、交互行为 —— 并生成可交互的预览页面，内置 Brand Customizer 面板支持实时主题定制。
 
+![预览](./docs/hero.png)
+
 ## 功能概览
 
 1. **提取** — 连接目标网站（通过 Chrome DevTools MCP、Playwright 或手动模式），扫描所有元素的 computed styles，截图，收集 SVG 图标
@@ -15,6 +17,23 @@
 3. **自定义** — 内置 Brand Customizer 面板，实时替换品牌色、字体、图标库和中性色调
 4. **验证** — 强制完整性检查，对照截图逐区验证，确保不遗漏组件
 5. **扩展** — 基于已提取的 Style Foundations 自动生成缺失组件（按钮、卡片、弹窗等）
+
+## 效果展示
+
+### Brand Customizer — 实时主题定制
+无需写代码，直接替换品牌色、字体、图标库和中性色调。
+
+![Brand Customizer](./docs/customizer.png)
+
+### Dark Mode — 完整主题适配
+所有令牌、组件和自定义面板自动适配暗色模式。
+
+![Dark Mode](./docs/darkmode.png)
+
+### 组件 — 状态与交互
+每个组件都包含完整的状态演示：Default / Hover / Active / Focus / Disabled / Loading。
+
+![组件](./docs/components.png)
 
 ## 输出文件
 
