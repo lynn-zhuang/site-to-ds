@@ -1,0 +1,10 @@
+{
+  "name": "site-to-ds",
+  "version": "1.0.0",
+  "description": "Website → Design System. Extract, preview & customize any site's design system with Claude Code.",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
