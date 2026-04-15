@@ -1,5 +1,9 @@
 # site-to-ds
 
+**[English](./README.md)** | **[中文](./README_zh.md)**
+
+---
+
 **Website → Design System.** Extract, preview, and customize any website's design system using [Claude Code](https://claude.ai/claude-code).
 
 A Claude Code skill that deep-extracts a complete UI design system from any target website — design tokens, components, interactions — and generates an interactive preview with a built-in Brand Customizer for real-time theming.
@@ -41,7 +45,7 @@ site-to-ds-output/
 ### Quick install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/site-to-ds.git
+git clone https://github.com/lynn-zhuang/site-to-ds.git
 cd site-to-ds
 ./install.sh
 ```
@@ -49,7 +53,7 @@ cd site-to-ds
 ### Manual install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/site-to-ds.git ~/.claude/skills/site-to-ds
+git clone https://github.com/lynn-zhuang/site-to-ds.git ~/.claude/skills/site-to-ds
 ```
 
 ## Usage
